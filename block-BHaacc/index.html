@@ -1,0 +1,395 @@
+<!-- - Create a layout according to the design shown below.
+
+![Backgrounds and gradient Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/adding-media/ex-1.png)
+
+- Video link: https://www.youtube.com/watch?v=AqcjdkPMPJA#action=share
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydro-Assignment-1</title>
+    <script src="https://kit.fontawesome.com/1ccbc6b453.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+        <header class="navbar">
+            <div class="container flex">
+                <div>
+                    <a class="brand" href="#">
+                        <strong>Hydro</strong>
+                    </a>
+                </div>
+            <nav>
+                <ul class="flex nav-menu nav-menu-primary">
+                    <li>
+                     <a href="#">Home</a>
+                    </li>
+                    <li>
+                     <a href="#">About</a>
+                    </li>
+                    <li>
+                     <a href="#">Blog</a>
+                    </li>
+                    <li>
+                     <a href="#">Our Work</a>
+                    </li>
+                    <li>
+                     <a href="#">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+               <ul class=" flex nav-menu nav-menu-secondary">
+                   <li class="social-media-item">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                   </li>
+                   <li class="social-media-item">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                   </li>
+                   <li class="social-media-item">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                   </li>
+                   <li>
+                    <a class="btn btn-primary" href="#">sign in/join</a>
+                   </li>
+               </ul> 
+            </nav>   
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+            <div class="container flex">
+                <div class="flex-48 hero-content">
+                    <h1 class="hero-heading">
+                        We make beautiful <br>websites for all people
+                    </h1>
+                    
+                    <div class="flex justify-start">
+                        <a class="btn btn-secondary" href="#">start a project</a>
+                        <p class="inquiry">CALL US(+66)010-020-0340 <br>For any inquiry</p>
+                    </div>   
+                </div>
+                <figure class="flex-48">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/AqcjdkPMPJA" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe> 
+                </figure>    
+            </div>
+        </section>
+        <section class="about padding">
+        <div class="container flex">
+            <div class="flex-40">
+                <header class="sec-header">
+                    <h2 class="heading">Let us introduce</h2>
+                    <div class="dot-box flex justify-start">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </header>
+                <p class="text para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   At sunt minus fuga perferendis aliquam harum velit beatae .
+                </p>
+                <p class="text para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptas quia esse eveniet tenetur obcaecati quaerat,
+                    perspiciatis blanditiis.
+                </p>
+            </div>
+            <div class="flex-30 progress">
+                <div class="progress-item">
+                    <div class="flex">
+                    <h3>Web Design</h3>
+                    <p>85%</p>
+                    </div>
+                    <progress value="85" max="100"></progress>
+                </div>
+                <div class="progress-item">
+                    <div class="flex">
+                        <h3>photography</h3>
+                        <p>90%</p>
+                    </div>
+                    <progress value="90" max="100"></progress>
+                </div>
+                <div class="progress-item">
+                    <div class="flex">
+                        <h3>content Marketing</h3>
+                        <p> 75%</p>
+                    </div>
+                    <progress value="75" max="100"></progress>
+                </div>
+                <div class="progress-item">
+                    <div class="flex">
+                        <h3>Cms Admin</h3>
+                        <p> 70%</p>
+                    </div>
+                    <progress value="70" max="100"></progress>
+                </div>
+            </div>
+            <div class="flex-30">
+                <img class="flexible-img about-img" src="assets/media/about-image.jpg" alt="about-image">
+            </div>
+        </div>
+        </section>
+        <section class="blog padding">
+            <div class="container">
+                <header class="sec-header text-center">
+                    <h2">Our Blog</h2>
+                    <div class="dot-box">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </header>
+                <div class="flex wrap">
+                    <article class="flex article flex-48">
+                        <div class="flex-40 font-zero">
+                            <img class="flexible-img" src="assets/media/blog-image1.jpg"
+                             alt="blog-image1">
+                        </div>
+                        <div class="flex-60 article-content">
+                            <time datetime="">
+                                <i class="far fa-clock"></i>
+                                December 22,2017
+                            </time>
+                            <h3>How to find beautiful workspace.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a class="btn btn-tertiary" href="#">Read article</a>
+                        </div>
+                    </article>
+                    <article class="flex article flex-48">
+                        <div class="flex-40 font-zero">
+                            <img class="flexible-img" src="assets/media/blog-image2.jpg"
+                             alt="blog-image2">
+                        </div>
+                        <div class="flex-60 article-content">
+                            <time datetime="">
+                                <i class="far fa-clock"></i>
+                                December 18,2017
+                            </time>
+                            <h3>Woman sportwear.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a class="btn btn-tertiary" href="#">Read More</a>
+                        </div>
+                    </article>
+                    <article class="flex article flex-48">
+                        <div class="flex-40 font-zero">
+                            <img class="flexible-img" src="assets/media/blog-image3.jpg"
+                             alt="blog-image3">
+                        </div>
+                        <div class="flex-60 article-content">
+                            <time datetime="">
+                                <i class="far fa-clock"></i>
+                                December 14,2017
+                            </time>
+                            <h3>New Creative Fashion.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a class="btn btn-tertiary" href="#">Read article</a>
+                        </div>
+                    </article>
+                    <article class="flex article flex-48">
+                        <div class="flex-40 font-zero">
+                            <img class="flexible-img" src="assets/media/blog-image4.jpg"
+                             alt="blog-image4">
+                        </div>
+                        <div class="flex-60 article-content">
+                            <time datetime="">
+                                <i class="far fa-clock"></i>
+                                December 10,2017
+                            </time>
+                            <h3>Minimalist Design Trend in 2018.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <a class="btn btn-tertiary" href="#">View Detail</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class=" work padding">
+            <div class="container">
+                <header class="sec-header text-center">
+                    <h2 class="heading">Our Work</h2>
+                    <div class="dot-box">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </header>
+                    <div class="flex">
+                        <div class="flex-23">
+                            <img class="flexible-img" src="assets/media/work-image1.jpg" alt="work-image1">
+                        </div>
+                        <div class="flex-23">
+                            <img class="flexible-img" src="assets/media/work-image2.jpg" alt="work-image2">
+                        </div>
+                        <div class="flex-23">
+                            <img class="flexible-img" src="assets/media/work-image3.jpg" alt="work-image3">
+                        </div>
+                        <div class="flex-23">
+                            <img class="flexible-img" src="assets/media/work-image4.jpg" alt="work-image4">
+                        </div>
+                    </div>
+        </section>
+        <section class="contact padding">
+            <div class="container">
+                <header class="sec-header text-center">
+                    <h2 class="heading">Contact Us</h2>
+                    <div class="dot-box">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </header>
+            <div class="flex">
+                <form class="flex-60" action="index.html" method="post">
+                    <fieldset>
+                        <div class="flex">
+                            <input
+                            class="form-control flex-48"
+                            type="text"
+                            name="name"
+                            placeholder="Full Name"
+                            />
+                            <input
+                            class="form-control flex-48"
+                            type="email"
+                            name="email"
+                            placeholder="Your Email"
+                            />
+                        </div>
+                        <div class="flex">
+                            <input
+                            class="form-control flex-48"
+                            name="number"
+                            type="tel"
+                            placeholder="your Phone"
+                            />
+                            <select class="form-control flex-48" name="Budget">
+                                <option value="Budget level">Budget level</option>
+                                <option value="Budget level1">Budget level1</option>
+                                <option value="Budget level2">Budget level2</option>
+                                <option value="Budget level3">Budget level3</option>
+                            </select>
+                        </div>
+                        <textarea
+                        class="from-control big-box" 
+                        name="requirements"
+                        placeholder="Your Requirements"
+                         id="" cols="96"
+                         rows="6">
+                        </textarea>
+                    </fieldset>
+                    <input 
+                    type="submit" 
+                    value="Send Message" 
+                    class="btn btn-primary">
+                </form>
+                <div class="flex-40 map">
+                    <iframe class="contact-map" src="https://www.google.com/maps/embed?
+                                  pb=!1m14!1m8!1m3!1d13503.678733325312!
+                                  2d76.3535986!3d32.2063948!3m2!1i1024!
+                                  2i768!4f13.1!3m3!1m2!1s0x0%3A0x71ff0cae0784712d!
+                                  2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!
+                                  2sin!4v1619029683261!5m2!1sen!2sin"
+                                  frameborder="0" 
+                                 style="border:0;"
+                                 allowfullscreen=""
+                                 loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <section>
+        <footer class="footer padding">
+            <div class="container">
+                <div class="flex align-start">
+                    <div class="flex-40">
+                        <h3>Hydro Company</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit.
+                        </p>
+                        <p>
+                            abore maxime totam, reiciendis vitae eligendi sunt asperi
+                            ores mollitia. 
+                        </p>
+                    </div>
+                    <div class="flex-20">
+                        <h3>Company</h3>
+                        <nav>
+                            <ul class="nav-a">
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Join Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="#">Read Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="flex-20">
+                        <h3>Services</h3>
+                        <nav>
+                            <ul class="nav-a">
+                                <li>
+                                    <a href="#">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="#">Documentation</a>
+                                </li>
+                                <li>
+                                    <a href="#">Support</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="flex-20">
+                        <h3>Find Us</h3>
+                        <address>
+                            123 Grand Rama & <br>
+                            kung Thap Maha Niketan 10400.
+                        </address>
+                    </div>
+                    </div>
+            <hr>
+            <div class="flex">
+                <div class="flex footer-additional-info">
+                    <small>copyright &copy 2017 Your Company</small>
+                </div>
+                <div class="flex">
+                    <p>Call Us(+66)010-020-0340</p>
+                </div>
+                <nav>
+                    <ul class=" flex nav-menu nav-menu-secondary justify-start">
+                        <li class="social-media-item">
+                         <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li class="social-media-item">
+                         <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="social-media-item">
+                         <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul> 
+                 </nav>
+            </div>
+                
+            </footer>
+        </section>
+    </main>
+</body>
+</html> 
